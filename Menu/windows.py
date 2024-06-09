@@ -2,7 +2,7 @@ from aiogram_dialog import Window
 from aiogram_dialog.widgets.kbd import Button, Start
 from aiogram_dialog.widgets.text import Const
 
-from state_fsm import MainMenu, SongMenu, EducationMenu
+from States_FSM.state_fsm import MainMenu, SongMenu, EducationMenu
 
 
 # Главное окно

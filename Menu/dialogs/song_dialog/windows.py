@@ -4,7 +4,7 @@ from aiogram_dialog import Window
 from aiogram_dialog.widgets.kbd import Back, Select, ScrollingGroup, Column, Cancel, Button
 from aiogram_dialog.widgets.text import Const, Format
 
-from state_fsm import SongMenu
+from States_FSM.state_fsm import SongMenu
 
 from . import selections, getters
 

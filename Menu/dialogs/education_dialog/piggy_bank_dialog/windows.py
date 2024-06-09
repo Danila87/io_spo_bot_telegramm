@@ -8,7 +8,7 @@ from aiogram_dialog.widgets.kbd import Back, Select, ScrollingGroup, Cancel, But
 from aiogram_dialog.widgets.text import Const, Format
 from aiogram_dialog.widgets.media import StaticMedia
 
-from state_fsm import PiggyBankMenu
+from States_FSM.state_fsm import PiggyBankMenu
 
 from . import selections, getters
 

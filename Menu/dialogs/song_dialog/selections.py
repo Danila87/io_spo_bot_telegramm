@@ -1,7 +1,7 @@
 from aiogram.types import CallbackQuery
 from aiogram_dialog import DialogManager
 
-from state_fsm import SongMenu
+from States_FSM.state_fsm import SongMenu
 
 from typing import Any
 

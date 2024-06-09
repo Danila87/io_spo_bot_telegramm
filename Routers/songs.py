@@ -1,10 +1,9 @@
 from aiogram import Router, F, html
-from aiogram.fsm.context import FSMContext, StorageKey
 from aiogram.types import Message, CallbackQuery
 from aiogram.enums import ParseMode
 
-from connection import song_api_connect as song_api
-from keyboard import songs_keyboard, SongsCallback, SongsCategoryCallback
+from Connection.connection import song_api_connect as song_api
+from Keyboards.keyboard import songs_keyboard, SongsCallback
 
 song_router = Router()
 

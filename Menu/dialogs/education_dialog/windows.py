@@ -8,7 +8,7 @@ from aiogram_dialog.widgets.media import StaticMedia
 
 from aiogram.types import CallbackQuery, ContentType
 
-from state_fsm import EducationMenu, PiggyBankMenu
+from States_FSM.state_fsm import EducationMenu, PiggyBankMenu
 
 from . import getters, selections
 

@@ -1,7 +1,7 @@
 from aiogram import BaseMiddleware, Dispatcher
 from aiogram.types import Message
 from typing import Callable, Dict, Awaitable, Any
-from connection import song_api_connect as song_api
+from Connection.connection import song_api_connect as song_api
 
 NOT_REMOTE_COMMANDS: list[str] = ['/start', '/getMenuTest']
 

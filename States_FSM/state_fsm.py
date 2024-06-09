@@ -44,14 +44,3 @@ class PiggyBankGames(StatesGroup):
     type_game_choice = State()
     game_choice = State()
     game_show = State()
-
-
-# class PiggyBankLegends(StatesGroup):
-#
-#
-#
-#
-# class PiggyBankKTD(StatesGroup):
-#
-#     ktd_choice = State(),
-#     ktd_show = State()

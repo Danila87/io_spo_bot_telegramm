@@ -1,4 +1,4 @@
-from connection import song_api_connect
+from Connection.connection import song_api_connect
 from aiogram_dialog import DialogManager
 
 

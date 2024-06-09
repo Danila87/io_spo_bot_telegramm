@@ -8,7 +8,7 @@ from aiogram_dialog import DialogManager, StartMode
 
 from bot import bot, dp
 
-from state_fsm import MainMenu
+from States_FSM import state_fsm
 
 
 @dp.message(Command('start'))
@@ -20,7 +20,7 @@ async def start(message: types.Message, command: CommandObject):
 
 @dp.message(Command('get_menu'))
 async def get_menu(message: types.Message, dialog_manager: DialogManager):
-    await dialog_manager.start(MainMenu.main_menu, mode=StartMode.RESET_STACK)
+    await dialog_manager.start(state_fsm.MainMenu.main_menu, mode=StartMode.RESET_STACK)
 
 
 async def main():
